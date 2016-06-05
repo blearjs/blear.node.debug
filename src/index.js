@@ -19,7 +19,7 @@ var console = require('blear.node.console');
 var configs = {
     padding: 20,
     align: 'right',
-    separator: ' >> ',
+    separator: ' → ',
     colors: []
 };
 
