@@ -65,7 +65,7 @@ var debugFormat = function (colors) {
 
         var lastName = nameLines[nameLines.length - 1];
 
-        nameLines[nameLines.length - 1] = options.align === 'left' ?
+        nameLines[nameLines.length - 1] = options.align === 'right' ?
             string.padStart(lastName, options.padding) :
             string.padEnd(lastName, options.padding);
         name = nameLines.join('\n');
