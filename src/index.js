@@ -17,9 +17,13 @@ var console = require('blear.node.console');
 
 
 var configs = {
+    // 内边距
     padding: 20,
+    // 对齐方式
     align: 'right',
+    // 键值分隔符
     separator: ' → ',
+    // 附加颜色
     colors: []
 };
 
